@@ -1,0 +1,9 @@
+pymupdf
+requests
+streamlit
+genanki
+openai
+anthropic
+groq
+cerebras-cloud-sdk
+google-genai

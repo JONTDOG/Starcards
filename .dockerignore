@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+runs/
+*.apkg
+README.md
+tests/
+*.local
+*.local.*
+*.env
+*.env.*
+*.egg-info/

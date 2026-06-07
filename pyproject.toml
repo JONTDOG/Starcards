@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "starcards"
+version = "0.1.0"
+description = "StarCards backend for PDF-to-Anki card generation"
+requires-python = ">=3.11"
+dependencies = [
+  "pymupdf",
+  "requests",
+  "streamlit",
+  "genanki",
+  "openai",
+  "anthropic",
+  "groq",
+  "cerebras-cloud-sdk",
+  "google-genai",
+]
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+include = ["starcards*"]
